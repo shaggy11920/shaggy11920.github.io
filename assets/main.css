@@ -1,10 +1,10 @@
 body {
-  background-color: #fdfdfd;
+  background-color: #080808;
 }
 
 #nav-header {
   border-top: 5px solid !important;
-  border-bottom: 1px solid #e9ecef !important;
+  border-bottom: 1px solid #ff4747 !important;
 }
 
 #nav-container {
@@ -17,9 +17,9 @@ body {
     z-index: 100;
     top: 0.4375rem;
     right: 1rem;
-    border: 1px solid #e9ecef;
+    border: 1px solid #ff4747;
     border-radius: 0.25rem;
-    background-color: #fdfdfd;
+    background-color: #080808;
   }
 }
 
@@ -33,7 +33,7 @@ body {
   text-align: left;
 }
 #content blockquote {
-  border-left: 4px solid #e9ecef;
+  border-left: 4px solid #ff4747;
   padding-left: 1rem;
   font-style: italic;
 }
@@ -48,13 +48,13 @@ body {
 }
 
 #site-footer {
-  border-top: 1px solid #e9ecef;
+  border-top: 1px solid #ff4747;
 }
 
 .highlight pre {
-  border: 1px solid #e9ecef;
+  border: 1px solid #ff4747;
   border-radius: 0.25rem;
-  background-color: #f8f9fa;
+  background-color: #a50000;
   padding: 0.75rem;
   margin-bottom: 1rem;
   white-space: pre-wrap;
@@ -144,7 +144,7 @@ body {
   font-weight: bold;
 }
 .highlight .kt {
-  color: #458;
+  color: rgb(136, 68, 68);
   font-weight: bold;
 }
 .highlight .m {
@@ -157,10 +157,10 @@ body {
   color: #008080;
 }
 .highlight .nb {
-  color: #0086B3;
+  color: #b32a00;
 }
 .highlight .nc {
-  color: #458;
+  color: rgb(175, 20, 20);
   font-weight: bold;
 }
 .highlight .no {
@@ -181,10 +181,10 @@ body {
   color: #555;
 }
 .highlight .nt {
-  color: #000080;
+  color: #800011;
 }
 .highlight .nv {
-  color: #008080;
+  color: #800900;
 }
 .highlight .ow {
   font-weight: bold;
@@ -193,7 +193,7 @@ body {
   color: #bbb;
 }
 .highlight .mf {
-  color: #099;
+  color: rgb(153, 0, 0);
 }
 .highlight .mh {
   color: #099;
@@ -251,6 +251,9 @@ body {
 }
 .highlight .il {
   color: #099;
+}
+.highlight .a {
+  color: rgb(204, 0, 0);
 }
 
 /*# sourceMappingURL=main.css.map */
